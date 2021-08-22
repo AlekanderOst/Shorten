@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background: white;
+    color: #000;
+    font-weight: 300;
+}
+
+header {
+    width: 100%;
+}
+
+header .menu {
+    text-decoration: none;
+    color: #565656;
+    float: right;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header .menu-header {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.block {
+    float: left;
+    width: 100%;
+}
+
+.reg {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg-profile {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.auth input {
+    display: block;
+    width: 98%;
+    margin-top: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.home-text {
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.point {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.home-btn {
+    text-align: center;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    background: #fd703a;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight:600;
+    font-size: 20px;
+}
+
+.btn-link-2 {
+    text-decoration: none;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-link:hover {color: #fff;}
+
+.btn:hover {
+    background: #f95423;
+    color: #fff;
+    border: 0;
+}
+
+.btn:active {
+    border: 0;
+    -webkit-box-shadow: 0px 21px 46px -14px rgba(0,0,0,0.73);
+    box-shadow: 0px 21px 46px -14px rgba(0,0,0,0.73);
+}
+
+#center {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#center2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.reg-button {
+    background: #fd703a;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.reg-button:active {
+    -webkit-box-shadow: 0px 21px 46px -14px rgba(0,0,0,0.73);
+    box-shadow: 0px 21px 46px -14px rgba(0,0,0,0.73);
+}

@@ -1,0 +1,13 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+<h2 class="reg-profile">User links  :</h2>
+<button  class="btn">
+        <a class="btn-link " href="{% url 'creator-links' user.username %}"
+           target="_self">{{ user.username }}</a>
+</button>
+{% endblock %}

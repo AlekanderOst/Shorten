@@ -1,0 +1,18 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div>
+        <p class="home-text">Shorten</p>
+        <p class="point">We will quickly shorten any long link for your project .</p>
+        <div class="home-btn">
+            <button class="btn">
+                <a class="btn-link" href="{% url 'profile' %}" target="self">User account</a>
+            </button>
+        </div>
+
+    </div>
+{% endblock %}

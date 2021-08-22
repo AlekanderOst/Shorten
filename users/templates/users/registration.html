@@ -1,0 +1,18 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h2 class="reg">Sing up</h2>
+    <br>
+    <form method="post" class="reg">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="reg-button" type="submit">Sing up</button>
+        <br>
+        <br>
+        <p>Already sing up?<a class="btn-link-2" href="{% url 'user' %}"> Log in</a></p>
+    </form>
+{% endblock %}

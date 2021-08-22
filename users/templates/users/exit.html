@@ -1,0 +1,10 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+    Exit
+{% endblock %}
+
+{% block content %}
+    <h2 class="reg">You have successfully signed out </h2>
+    <p class="reg"><a class="btn-link-2" href="{% url 'user' %}">Log in to your account again </a></p>
+{% endblock %}

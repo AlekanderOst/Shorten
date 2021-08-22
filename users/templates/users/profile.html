@@ -1,0 +1,26 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="home-btn">
+        <h2 class="reg-profile">{{ title }}</h2>
+        <p id="center" ><b>@{{ user.username }}</b></p>
+        <p id="center2"><b>Email: </b>{{ user.email }}</p>
+        <button  class="btn">
+            <a class="btn-link" href="{% url 'exit' %}" target="self">Log out of the site </a>
+        </button>
+        <br>
+        <br>
+        <h2 class="reg-profile">Update account</h2>
+    </div>
+    <form method="post" enctype="multipart/form-data" class="form-register mt-4" >
+        {% csrf_token %}
+        {{ updateUserForm.as_p }}
+        {{ profileForm.as_p }}
+        <button class="btn btn-outline-warning" type="submit">Update</button>
+    </form>
+
+{% endblock %}
